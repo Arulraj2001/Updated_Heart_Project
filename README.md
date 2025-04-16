@@ -51,10 +51,6 @@ Heart disease is one of the leading causes of death globally. Early detection ca
 ### 📁 Project Structure
 heart_app/ ├── templates/ │ └── heart_app/ │ ├── home.html │ ├── predict.html │ ├── visualizations.html │ ├── upload.html ├── static/ ├── views.py ├── Heart.csv media/ └── heart_datasets/ best_heart_disease_model.pkl manage.py
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 📊 Tools & Technologies
@@ -73,24 +69,14 @@ Edit
 ## 🚀 How to Run This Project Locally
 
 ### 1. Clone the Repository
-```bash
 git clone https://github.com/your-username/heart-disease-predictor.git
 cd heart-disease-predictor
 2. Create a Virtual Environment
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 3. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 4. Run the Server
-bash
-Copy
-Edit
 python manage.py runserver
 Visit http://127.0.0.1:8000/ in your browser.
 
